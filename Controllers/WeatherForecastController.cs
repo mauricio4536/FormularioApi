@@ -1,3 +1,4 @@
+using Exemplo.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -9,8 +10,8 @@ namespace Exemplo.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        };
 
         private readonly ILogger<WeatherForecastController> _logger;
 
@@ -31,10 +32,11 @@ namespace Exemplo.Controllers
             .ToArray();
         }
 
-        [HttpGet(Name = "Contribuintes")]
-        public IEnumerable<object> Contribuintes()
+        [HttpGet]
+        [Route("Contribuintes")]
+        public IEnumerable<ContribuintesDTO> Contribuintes()
         {
-            return JsonConvert.DeserializeObject<IEnumerable<object>>("[{'ContribuinteID': 1,  'PrimeiroNome': 'Ola', 'SobreNome': 'mundo', 'Email': 'jfkjgdokl@kgklf.com', 'Celular': '895859295', 'CPF': '9599746681', 'RendaAnual': 826.6, 'Genero': 1 }\r\n,{ 'ContribuinteID': 1,  'PrimeiroNome': 'Ola', 'SobreNome': 'mundo', 'Email': 'jfkjgdokl@kgklf.com', 'Celular': '895859295', 'CPF': '9599746681', 'RendaAnual': 826.6, 'Genero': 1 }\r\n,{ 'ContribuinteID': 1,  'PrimeiroNome': 'Ola', 'SobreNome': 'mundo', 'Email': 'jfkjgdokl@kgklf.com', 'Celular': '895859295', 'CPF': '9599746681', 'RendaAnual': 826.6, 'Genero': 1 }]\r\n");
+            return JsonConvert.DeserializeObject<IEnumerable<ContribuintesDTO>>("[{'ContribuinteID': 1,  'PrimeiroNome': 'Ola', 'SobreNome': 'mundo', 'Email': 'jfkjgdokl@kgklf.com', 'Celular': '895859295', 'CPF': '9599746681', 'RendaAnual': 826.6, 'Genero': 1 },{ 'ContribuinteID': 1,  'PrimeiroNome': 'Ola', 'SobreNome': 'mundo', 'Email': 'jfkjgdokl@kgklf.com', 'Celular': '895859295', 'CPF': '9599746681', 'RendaAnual': 826.6, 'Genero': 1 },{ 'ContribuinteID': 1,  'PrimeiroNome': 'Ola', 'SobreNome': 'mundo', 'Email': 'jfkjgdokl@kgklf.com', 'Celular': '895859295', 'CPF': '9599746681', 'RendaAnual': 826.6, 'Genero': 1 }]");
         }
     }
 }
