@@ -25,3 +25,4 @@ C:\Desenvolvedor\FormularioApi\obj\Debug\net6.0\refint\Exemplo.dll
 C:\Desenvolvedor\FormularioApi\obj\Debug\net6.0\Exemplo.pdb
 C:\Desenvolvedor\FormularioApi\obj\Debug\net6.0\Exemplo.genruntimeconfig.cache
 C:\Desenvolvedor\FormularioApi\obj\Debug\net6.0\ref\Exemplo.dll
+C:\Desenvolvedor\FormularioApi\bin\Debug\net6.0\Newtonsoft.Json.dll
