@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "tOYdOkEXJ/kY4L5CsyXHcuOPGNrN4UXla9Qio3QKYgoLNzpShjnvSG5QWUpX3ELTW4RT6B0mSGW+M7UTOtX+0Q==",
-  "success": false,
-  "projectFilePath": "C:\\Desenvolvedor\\Exemplo\\Exemplo.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Não é possível carregar o índice de serviço para a origem https://api.nuget.org/v3/index.json.",
-      "libraryId": "Swashbuckle.AspNetCore"
-    }
-  ]
+  "dgSpecHash": "yWxaOilQc04FB+REZSeQqmXZ6Xh/D/0r4KKxpHuZHlI44CEOvArSeVlCATVc4MnetsYsustk8fPYpQh+EaF8Nw==",
+  "success": true,
+  "projectFilePath": "C:\\Desenvolvedor\\FormularioApi\\Exemplo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gleis\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\gleis\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\gleis\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\gleis\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\gleis\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\gleis\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
 }
